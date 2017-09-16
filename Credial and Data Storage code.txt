@@ -1,0 +1,34 @@
+dselzer@umd.edu
+Bitcamp!
+
+
+CREDENTIALS
+// Initialize the Amazon Cognito credentials provider
+CognitoCachingCredentialsProvider credentialsProvider = new CognitoCachingCredentialsProvider(
+    getApplicationContext(),
+    "us-east-2:93e5d531-2ee0-49ad-8b10-1784012784b4", // Identity pool ID
+    Regions.US_EAST_2 // Region
+);
+
+
+
+
+
+
+
+//STORE DATA
+// Initialize the Cognito Sync client
+CognitoSyncManager syncClient = new CognitoSyncManager(
+   getApplicationContext(),
+   Regions.US_EAST_2, // Region
+   credentialsProvider);
+
+// Create a record in a dataset and synchronize with the server
+Dataset dataset = syncClient.openOrCreateDataset("myDataset");
+dataset.put("myKey", "myValue");
+dataset.synchronize(new DefaultSyncCallback() {
+    @Override
+    public void onSuccess(Dataset dataset, List newRecords) {
+	//Your handler code here
+    }
+});
