@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">EdUp</string>
-    <string name="button_main">Spelling Game</string>
+    <string name="button_main">Math Game</string>
     <string name="username_login">Email</string>
     <string name="password_login">Password</string>
     <string name="login_button_login">Login</string>
@@ -13,4 +13,11 @@
     <string name="reenter_password_signup">Reenter Password</string>
     <string name="submit_signup">Submit</string>
     <string name="cancel_signup">Cancel</string>
+    <string name="password_no_match_signup">Password entries do not match.</string>
+    <string name="error_signup">Unable to sign up, email might be taken.</string>
+    <string name="error_empty_signup">One or more entries are empty.</string>
+    <string name="good_login_check_message">Successfully logged in!</string>
+    <string name="bad_login_check_message">"Failed logging in!</string>
+    <string name="auth_failed2">"Failed authentication.</string>
+    auth_failed2
 </resources>

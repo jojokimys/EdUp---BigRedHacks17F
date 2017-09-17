@@ -10,8 +10,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="com.example.xavier.edup.SignUp"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp">
+        >
 
         <ScrollView
             android:id="@+id/signup_form"
@@ -62,7 +61,7 @@
                     />
 
                 <EditText
-                    android:id="@+id/sign_up_button"
+                    android:id="@+id/email_signup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -97,6 +96,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="16dp"
+                    android:background="@color/colorButton"
                     android:text="@string/submit_signup"
 
                     />
@@ -107,13 +107,19 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="16dp"
+                    android:layout_marginBottom="200dp"
+                    android:background="@color/colorButton"
                     android:text="@string/cancel_signup"
 
                     />
+
+
             </LinearLayout>
         </ScrollView>
 
-        <ProgressBar
+
+
+    <ProgressBar
             android:id="@+id/login_progress"
             style="?android:attr/progressBarStyleLarge"
             android:layout_width="wrap_content"
