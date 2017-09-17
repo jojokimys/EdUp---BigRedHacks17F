@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "323479461296",
+    "firebase_url": "https://edup-f9395.firebaseio.com",
+    "project_id": "edup-f9395",
+    "storage_bucket": "edup-f9395.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323479461296:android:44e7b1b4e8595d52",
+        "android_client_info": {
+          "package_name": "com.example.xavier.edup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323479461296-fqd2guq9el8o7rup40e04sgkpihheqob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.xavier.edup",
+            "certificate_hash": "763a4b072b301c5c76eb4b8442e92074c99f2f38"
+          }
+        },
+        {
+          "client_id": "323479461296-el3dcjjcos8ic0vq39dc3g6v0peqvs7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwOKJJB3sEZgXEqI8SYpL0aJ96YbtmUyU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323479461296-el3dcjjcos8ic0vq39dc3g6v0peqvs7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
