@@ -5,7 +5,7 @@
 
 ## What it does
 ### Analyzes facial expressions while solving a question, and decides whether to step up or not. Grade school-level math problems are generated for the user to solve, while using the camera to track the user's emotions. Based on how the user is feeling, the difficulty of the problems presented can be changed. For instance, if the user is sad or angry, an easier problem will be given to raise morale.
-[link to Google!](https://drive.google.com/file/d/1B5BsATgVENUfnY8K4JhY0Ahfqvdb9EBF/view?usp=sharing)
+[link to Slide Show!](https://drive.google.com/file/d/1B5BsATgVENUfnY8K4JhY0Ahfqvdb9EBF/view?usp=sharing)
 
 ## Used Technology
 ### React JS for front-end, Java for voice actions and Azure facial expression detection API
