@@ -1,5 +1,5 @@
 # EdUp @ BigRedHacks 2017 Fall
-![alt text](https://github.com/jojokimys/EdUp---BigRedHacks17F/blob/master/edup.png"EdUp Img")
+![alt text](https://github.com/jojokimys/EdUp---BigRedHacks17F/blob/master/edup.png "EdUp Img")
 ## Inspiration
 ###### Learning is very efficient when you're studying according to your level. By using facial emotion detection analysis, we wanted to provide that efficiency in learning
 
